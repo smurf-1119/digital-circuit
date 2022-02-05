@@ -1,0 +1,291 @@
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Insert Symbol
+	     3.	Move
+	     4.	Properties
+	     5.	Insert Symbol
+	     6.	Delete
+	     7.	Move
+	     8.	Move
+	     9.	Move
+	    10.	Move
+	    11.	Move
+	    12.	Move
+	    13.	Delete
+	    14.	Insert Symbol
+	    15.	Insert Symbol
+	    16.	Delete
+	    17.	Insert Node
+	    18.	Insert Node
+	    19.	Insert Node
+	    20.	Insert Node
+	    21.	Insert Node
+	    22.	Rotate 90
+	    23.	Rotate 90
+	    24.	Rotate 90
+	    25.	Insert Symbol
+	    26.	Delete
+	    27.	Resize
+	    28.	Resize
+	    29.	Resize
+	    30.	Insert Node
+	    31.	Delete
+	    32.	Insert Symbol
+	    33.	Delete
+	    34.	Insert Node
+	    35.	Insert Node
+	    36.	Insert Symbol
+	    37.	Delete
+	    38.	Insert Symbol
+	    39.	Delete
+	    40.	Insert Symbol
+	    41.	Delete
+	    42.	Delete
+	    43.	Insert Symbol
+	    44.	Insert Symbol
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Properties
+	     3.	Properties
+	     4.	Properties
+	     5.	Properties
+	     6.	Properties
+	     7.	Properties
+	     8.	Properties
+	     9.	Properties
+	    10.	Properties
+	    11.	Properties
+	    12.	Properties
+	    13.	Insert Node
+	    14.	Delete
+	    15.	Insert Node
+	    16.	Insert Node
+	    17.	Insert Node
+	    18.	Insert Node
+	    19.	Insert Node
+	    20.	Insert Node
+	    21.	Insert Node
+	    22.	Insert Node
+	    23.	Delete
+	    24.	Insert Node
+	    25.	Insert Node
+	    26.	Insert Node
+	    27.	Insert Symbol
+	    28.	Insert Symbol
+	    29.	Insert Symbol
+	    30.	Insert Symbol
+	    31.	Properties
+	    32.	Properties
+	    33.	Properties
+	    34.	Properties
+	    35.	Insert Node
+	    36.	Insert Node
+	    37.	Delete
+	    38.	Delete
+	    39.	Insert Node
+	    40.	Insert Node
+	    41.	Insert Node
+	    42.	Insert Node
+	    43.	Insert Node
+	    44.	Insert Node
+	    45.	Insert Node
+	    46.	Insert Node
+	    47.	Insert Node
+	    48.	Insert Symbol
+	    49.	Insert Symbol
+	    50.	Delete
+	    51.	Move
+	    52.	Move
+	    53.	Delete
+	    54.	Insert Symbol
+	    55.	Insert Symbol
+	    56.	Insert Symbol
+	    57.	Insert Node
+	    58.	Delete
+	    59.	Insert Node
+	    60.	Insert Node
+	    61.	Delete
+	    62.	Delete
+	    63.	Insert Node
+	    64.	Insert Node
+	    65.	Delete
+	    66.	Delete
+	    67.	Insert Node
+	    68.	Delete
+	    69.	Insert Node
+	    70.	Delete
+	    71.	Insert Node
+	    72.	Insert Node
+	    73.	Insert Node
+	    74.	Insert Node
+	    75.	Insert Node
+	    76.	Insert Node
+	    77.	Delete
+	    78.	Insert Node
+	    79.	Properties
+	    80.	Insert Symbol
+	    81.	Resize
+	    82.	Resize
+	    83.	Resize
+	    84.	Delete
+	    85.	Resize
+	    86.	Delete
+	    87.	Resize
+	    88.	Resize
+	    89.	Delete
+	    90.	Delete
+	    91.	Resize
+	    92.	Resize
+	    93.	Delete
+	    94.	Delete
+	    95.	Insert Symbol
+	    96.	Move
+	    97.	Insert Symbol
+	    98.	Delete
+	    99.	Delete
+	   100.	Insert Node
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Insert Symbol
+	     3.	Delete
+	     4.	Insert Node
+	     5.	Insert Symbol
+	     6.	Delete
+	     7.	Properties
+	     8.	Properties
+	     9.	Properties
+	    10.	Properties
+	    11.	Properties
+	    12.	Insert Symbol
+	    13.	Insert Symbol
+	    14.	Insert Symbol
+	    15.	Insert Symbol
+	    16.	Insert Symbol
+	    17.	Delete
+	    18.	Delete
+	    19.	Delete
+	    20.	Insert Symbol
+	    21.	Insert Symbol
+	    22.	Insert Symbol
+	    23.	Insert Node
+	    24.	Delete
+	    25.	Delete
+	    26.	Delete
+	    27.	Delete
+	    28.	Delete
+	    29.	Delete
+	    30.	Delete
+	    31.	Delete
+	    32.	Delete
+	    33.	Delete
+	    34.	Delete
+	    35.	Insert Node
+	    36.	Insert Node
+	    37.	Insert Node
+	    38.	Delete
+	    39.	Delete
+	    40.	Insert Node
+	    41.	Insert Node
+	    42.	Insert Node
+	    43.	Insert Node
+	    44.	Delete
+	    45.	Insert Node
+	    46.	Delete
+	    47.	Insert Node
+	    48.	Delete
+	    49.	Insert Node
+	    50.	Insert Node
+	    51.	Insert Node
+	    52.	Insert Node
+	    53.	Insert Node
+	    54.	Rotate 90
+	    55.	Rotate 90
+	    56.	Insert Symbol
+	    57.	Move
+	    58.	Move
+	    59.	Properties
+	    60.	Insert Node
+	    61.	Delete
+	    62.	Delete
+	    63.	Delete
+	    64.	Delete
+	    65.	Insert Symbol
+	    66.	Delete
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Insert Node
+	     3.	Insert Symbol
+	     4.	Delete
+	     5.	Delete
+	     6.	Insert Node
+	     7.	Delete
+	     8.	Delete
+	     9.	Insert Node
+	    10.	Insert Node
+	    11.	Move
+	    12.	Delete
+	    13.	Insert Node
+	    14.	Insert Symbol
+	    15.	Delete
+	    16.	Insert Symbol
+	    17.	Delete
+	    18.	Insert Symbol
+	    19.	Properties
+	    20.	Properties
+	    21.	Properties
+	    22.	Properties
+	    23.	Properties
+	    24.	Move
+	    25.	Move
+	    26.	Insert Symbol
+	    27.	Insert Symbol
+	    28.	Insert Symbol
+	    29.	Insert Symbol
+	    30.	Insert Node
+	    31.	Delete
+	    32.	Delete
+	    33.	Delete
+	    34.	Delete
+	    35.	Delete
+	    36.	Delete
+	    37.	Delete
+	    38.	Insert Node
+	    39.	Insert Node
+	    40.	Insert Node
+	    41.	Delete
+	    42.	Insert Node
+	    43.	Insert Node
+	    44.	Insert Node
+	    45.	Delete
+	    46.	Insert Node
+	    47.	Insert Node
+	    48.	Insert Node
+	    49.	Insert Node
+	    50.	Insert Node
+	    51.	Insert Node
+	    52.	Insert Node
+	    53.	Insert Node
+	    54.	Move
+	    55.	Move
+	    56.	Move
+	    57.	Rotate 90
+	    58.	Rotate 90
+	    59.	Insert Symbol
+	    60.	Delete
+	    61.	Delete
+
+

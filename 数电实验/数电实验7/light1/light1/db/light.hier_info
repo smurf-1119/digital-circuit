@@ -1,0 +1,423 @@
+|light
+AGREEN <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => CONTROL:inst.CLK
+CLK => Block4:inst14.CLK
+CLK => Block4:inst15.CLK
+P => Block4:inst14.EN
+P => Block4:inst15.EN
+P => inst1.IN0
+P => inst29.IN0
+P => inst30.IN0
+AYELLOW <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+ARED <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+BGREEN <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+BYELLOW <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+BRED <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+poutputlo <= Block4:inst14.loadout
+Age[0] <= Block4:inst14.oge[0]
+Age[1] <= Block4:inst14.oge[1]
+Age[2] <= Block4:inst14.oge[2]
+Age[3] <= Block4:inst14.oge[3]
+Ashi[0] <= Block4:inst14.oshi[0]
+Ashi[1] <= Block4:inst14.oshi[1]
+Ashi[2] <= Block4:inst14.oshi[2]
+Ashi[3] <= Block4:inst14.oshi[3]
+Bge[0] <= Block4:inst15.oge[0]
+Bge[1] <= Block4:inst15.oge[1]
+Bge[2] <= Block4:inst15.oge[2]
+Bge[3] <= Block4:inst15.oge[3]
+Bshi[0] <= Block4:inst15.oshi[0]
+Bshi[1] <= Block4:inst15.oshi[1]
+Bshi[2] <= Block4:inst15.oshi[2]
+Bshi[3] <= Block4:inst15.oshi[3]
+
+
+|light|CONTROL:inst
+LOADA <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+CAINPUT => inst8.IN2
+CAINPUT => inst5.IN0
+CAINPUT => inst4.IN2
+CBINPUT => inst6.IN0
+CBINPUT => inst11.IN2
+CLK => 7474:inst.1CLK
+CLK => 7474:inst.2CLK
+LOADB <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 7474:inst.1Q
+QB <= 7474:inst.2Q
+
+
+|light|CONTROL:inst|7474:inst
+1Q <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => 9.ACLR
+1CLK => 9.CLK
+1D => 9.DATAIN
+1PRN => 9.PRESET
+1QN <= 16.DB_MAX_OUTPUT_PORT_TYPE
+2Q <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2CLRN => 10.ACLR
+2CLK => 10.CLK
+2D => 10.DATAIN
+2PRN => 10.PRESET
+2QN <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|light|Block4:inst14
+loadout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+GE[0] => 74168:inst.D0
+GE[1] => 74168:inst.D1
+GE[2] => 74168:inst.D2
+GE[3] => 74168:inst.D3
+EN => 74168:inst.ENPN
+EN => 74168:inst.ENTN
+EN => 74168:inst1.ENPN
+CLK => 74168:inst.CLK
+CLK => 74168:inst1.CLK
+LOAD => 74168:inst.LDN
+LOAD => 74168:inst1.LDN
+SHI[0] => 74168:inst1.D0
+SHI[1] => 74168:inst1.D1
+SHI[2] => 74168:inst1.D2
+SHI[3] => 74168:inst1.D3
+oge[0] <= 74168:inst.Q0
+oge[1] <= 74168:inst.Q1
+oge[2] <= 74168:inst.Q2
+oge[3] <= 74168:inst.Q3
+oshi[0] <= 74168:inst1.Q0
+oshi[1] <= 74168:inst1.Q1
+oshi[2] <= 74168:inst1.Q2
+oshi[3] <= 74168:inst1.Q3
+
+
+|light|Block4:inst14|74168:inst
+Q0 <= 3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 3.CLK
+CLK => 15.CLK
+CLK => 49.CLK
+CLK => 29.CLK
+D0 => 6.IN0
+LDN => 71.IN0
+LDN => 8.IN1
+LDN => 27.IN1
+LDN => 50.IN1
+LDN => 11.IN1
+ENTN => 66.IN0
+ENTN => 114.IN0
+ENPN => 66.IN1
+Q1 <= 15.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.IN0
+D3 => 72.IN0
+U/DN => 101.IN0
+U/DN => 93.IN0
+U/DN => 97.IN0
+U/DN => 67.IN0
+U/DN => 102.IN4
+U/DN => 102.IN5
+U/DN => 86.IN1
+U/DN => 87.IN2
+U/DN => 77.IN0
+D2 => 28.IN0
+Q2 <= 29.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= 49.DB_MAX_OUTPUT_PORT_TYPE
+TCN <= 79.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|light|Block4:inst14|74168:inst1
+Q0 <= 3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 3.CLK
+CLK => 15.CLK
+CLK => 49.CLK
+CLK => 29.CLK
+D0 => 6.IN0
+LDN => 71.IN0
+LDN => 8.IN1
+LDN => 27.IN1
+LDN => 50.IN1
+LDN => 11.IN1
+ENTN => 66.IN0
+ENTN => 114.IN0
+ENPN => 66.IN1
+Q1 <= 15.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.IN0
+D3 => 72.IN0
+U/DN => 101.IN0
+U/DN => 93.IN0
+U/DN => 97.IN0
+U/DN => 67.IN0
+U/DN => 102.IN4
+U/DN => 102.IN5
+U/DN => 86.IN1
+U/DN => 87.IN2
+U/DN => 77.IN0
+D2 => 28.IN0
+Q2 <= 29.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= 49.DB_MAX_OUTPUT_PORT_TYPE
+TCN <= 79.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|light|xuanze:inst12
+ige[0] <= 74153:inst3.1Y
+ige[1] <= 74153:inst3.2Y
+ige[2] <= 74153:inst4.1Y
+ige[3] <= 74153:inst4.2Y
+qa => 74153:inst3.B
+qa => 74153:inst4.B
+qa => 74153:inst.B
+qa => 74153:inst2.B
+qb => 74153:inst3.A
+qb => 74153:inst4.A
+qb => 74153:inst.A
+qb => 74153:inst2.A
+ishi[0] <= 74153:inst.1Y
+ishi[1] <= 74153:inst.2Y
+ishi[2] <= 74153:inst2.1Y
+ishi[3] <= 74153:inst2.2Y
+
+
+|light|xuanze:inst12|74153:inst3
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|light|xuanze:inst12|74153:inst4
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|light|xuanze:inst12|74153:inst
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|light|xuanze:inst12|74153:inst2
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|light|Block4:inst15
+loadout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+GE[0] => 74168:inst.D0
+GE[1] => 74168:inst.D1
+GE[2] => 74168:inst.D2
+GE[3] => 74168:inst.D3
+EN => 74168:inst.ENPN
+EN => 74168:inst.ENTN
+EN => 74168:inst1.ENPN
+CLK => 74168:inst.CLK
+CLK => 74168:inst1.CLK
+LOAD => 74168:inst.LDN
+LOAD => 74168:inst1.LDN
+SHI[0] => 74168:inst1.D0
+SHI[1] => 74168:inst1.D1
+SHI[2] => 74168:inst1.D2
+SHI[3] => 74168:inst1.D3
+oge[0] <= 74168:inst.Q0
+oge[1] <= 74168:inst.Q1
+oge[2] <= 74168:inst.Q2
+oge[3] <= 74168:inst.Q3
+oshi[0] <= 74168:inst1.Q0
+oshi[1] <= 74168:inst1.Q1
+oshi[2] <= 74168:inst1.Q2
+oshi[3] <= 74168:inst1.Q3
+
+
+|light|Block4:inst15|74168:inst
+Q0 <= 3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 3.CLK
+CLK => 15.CLK
+CLK => 49.CLK
+CLK => 29.CLK
+D0 => 6.IN0
+LDN => 71.IN0
+LDN => 8.IN1
+LDN => 27.IN1
+LDN => 50.IN1
+LDN => 11.IN1
+ENTN => 66.IN0
+ENTN => 114.IN0
+ENPN => 66.IN1
+Q1 <= 15.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.IN0
+D3 => 72.IN0
+U/DN => 101.IN0
+U/DN => 93.IN0
+U/DN => 97.IN0
+U/DN => 67.IN0
+U/DN => 102.IN4
+U/DN => 102.IN5
+U/DN => 86.IN1
+U/DN => 87.IN2
+U/DN => 77.IN0
+D2 => 28.IN0
+Q2 <= 29.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= 49.DB_MAX_OUTPUT_PORT_TYPE
+TCN <= 79.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|light|Block4:inst15|74168:inst1
+Q0 <= 3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 3.CLK
+CLK => 15.CLK
+CLK => 49.CLK
+CLK => 29.CLK
+D0 => 6.IN0
+LDN => 71.IN0
+LDN => 8.IN1
+LDN => 27.IN1
+LDN => 50.IN1
+LDN => 11.IN1
+ENTN => 66.IN0
+ENTN => 114.IN0
+ENPN => 66.IN1
+Q1 <= 15.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.IN0
+D3 => 72.IN0
+U/DN => 101.IN0
+U/DN => 93.IN0
+U/DN => 97.IN0
+U/DN => 67.IN0
+U/DN => 102.IN4
+U/DN => 102.IN5
+U/DN => 86.IN1
+U/DN => 87.IN2
+U/DN => 77.IN0
+D2 => 28.IN0
+Q2 <= 29.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= 49.DB_MAX_OUTPUT_PORT_TYPE
+TCN <= 79.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|light|xuanze:inst13
+ige[0] <= 74153:inst3.1Y
+ige[1] <= 74153:inst3.2Y
+ige[2] <= 74153:inst4.1Y
+ige[3] <= 74153:inst4.2Y
+qa => 74153:inst3.B
+qa => 74153:inst4.B
+qa => 74153:inst.B
+qa => 74153:inst2.B
+qb => 74153:inst3.A
+qb => 74153:inst4.A
+qb => 74153:inst.A
+qb => 74153:inst2.A
+ishi[0] <= 74153:inst.1Y
+ishi[1] <= 74153:inst.2Y
+ishi[2] <= 74153:inst2.1Y
+ishi[3] <= 74153:inst2.2Y
+
+
+|light|xuanze:inst13|74153:inst3
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|light|xuanze:inst13|74153:inst4
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|light|xuanze:inst13|74153:inst
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|light|xuanze:inst13|74153:inst2
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+

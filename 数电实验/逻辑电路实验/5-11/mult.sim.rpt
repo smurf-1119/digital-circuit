@@ -1,0 +1,332 @@
+Simulator report for mult
+Sun May 17 11:29:51 2020
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 128 nodes    ;
+; Simulation Coverage         ;      60.94 % ;
+; Total Number of Transitions ; 369          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Vector input source                                                                        ; multer.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      60.94 % ;
+; Total nodes checked                                 ; 128          ;
+; Total output ports checked                          ; 128          ;
+; Total output ports with complete 1/0-value coverage ; 78           ;
+; Total output ports with no 1/0-value coverage       ; 32           ;
+; Total output ports with no 1-value coverage         ; 32           ;
+; Total output ports with no 0-value coverage         ; 50           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                              ;
++-------------------------------------------+-------------------------------------------+------------------+
+; Node Name                                 ; Output Port Name                          ; Output Port Type ;
++-------------------------------------------+-------------------------------------------+------------------+
+; |multer|Z                                 ; |multer|Z                                 ; pin_out          ;
+; |multer|START                             ; |multer|START                             ; out              ;
+; |multer|Q[6]                              ; |multer|Q[6]                              ; pin_out          ;
+; |multer|Q[5]                              ; |multer|Q[5]                              ; pin_out          ;
+; |multer|Q[3]                              ; |multer|Q[3]                              ; pin_out          ;
+; |multer|Q[2]                              ; |multer|Q[2]                              ; pin_out          ;
+; |multer|Q[1]                              ; |multer|Q[1]                              ; pin_out          ;
+; |multer|Q[0]                              ; |multer|Q[0]                              ; pin_out          ;
+; |multer|CLK                               ; |multer|CLK                               ; out              ;
+; |multer|inst6                             ; |multer|inst6                             ; out0             ;
+; |multer|inst8                             ; |multer|inst8                             ; out0             ;
+; |multer|inst9                             ; |multer|inst9                             ; out0             ;
+; |multer|inst11                            ; |multer|inst11                            ; out0             ;
+; |multer|inst10                            ; |multer|inst10                            ; out0             ;
+; |multer|74194:inst14|38                   ; |multer|74194:inst14|38                   ; regout           ;
+; |multer|74194:inst14|34                   ; |multer|74194:inst14|34                   ; out0             ;
+; |multer|74194:inst14|53                   ; |multer|74194:inst14|53                   ; out0             ;
+; |multer|74194:inst14|46                   ; |multer|74194:inst14|46                   ; out0             ;
+; |multer|74194:inst14|52                   ; |multer|74194:inst14|52                   ; out0             ;
+; |multer|74194:inst14|39                   ; |multer|74194:inst14|39                   ; regout           ;
+; |multer|74194:inst14|35                   ; |multer|74194:inst14|35                   ; out0             ;
+; |multer|74194:inst14|47                   ; |multer|74194:inst14|47                   ; out0             ;
+; |multer|74194:inst14|56                   ; |multer|74194:inst14|56                   ; out0             ;
+; |multer|74194:inst14|40                   ; |multer|74194:inst14|40                   ; regout           ;
+; |multer|74194:inst14|36                   ; |multer|74194:inst14|36                   ; out0             ;
+; |multer|74194:inst14|48                   ; |multer|74194:inst14|48                   ; out0             ;
+; |multer|74194:inst14|60                   ; |multer|74194:inst14|60                   ; out0             ;
+; |multer|74194:inst14|41                   ; |multer|74194:inst14|41                   ; regout           ;
+; |multer|74194:inst14|37                   ; |multer|74194:inst14|37                   ; out0             ;
+; |multer|74194:inst14|65                   ; |multer|74194:inst14|65                   ; out0             ;
+; |multer|74194:inst14|49                   ; |multer|74194:inst14|49                   ; out0             ;
+; |multer|74194:inst14|64                   ; |multer|74194:inst14|64                   ; out0             ;
+; |multer|74194:inst14|63                   ; |multer|74194:inst14|63                   ; out0             ;
+; |multer|74194:inst14|51                   ; |multer|74194:inst14|51                   ; out0             ;
+; |multer|74161:inst1|f74161:sub|113        ; |multer|74161:inst1|f74161:sub|113        ; out0             ;
+; |multer|74161:inst1|f74161:sub|101        ; |multer|74161:inst1|f74161:sub|101        ; out0             ;
+; |multer|74161:inst1|f74161:sub|76         ; |multer|74161:inst1|f74161:sub|76         ; out0             ;
+; |multer|74283:inst2|f74283:sub|76         ; |multer|74283:inst2|f74283:sub|76         ; out0             ;
+; |multer|74283:inst2|f74283:sub|106        ; |multer|74283:inst2|f74283:sub|106        ; out0             ;
+; |multer|74283:inst2|f74283:sub|105        ; |multer|74283:inst2|f74283:sub|105        ; out0             ;
+; |multer|74283:inst2|f74283:sub|93         ; |multer|74283:inst2|f74283:sub|93         ; out0             ;
+; |multer|74283:inst2|f74283:sub|96         ; |multer|74283:inst2|f74283:sub|96         ; out0             ;
+; |multer|74283:inst2|f74283:sub|100        ; |multer|74283:inst2|f74283:sub|100        ; out0             ;
+; |multer|74283:inst2|f74283:sub|99         ; |multer|74283:inst2|f74283:sub|99         ; out0             ;
+; |multer|74283:inst2|f74283:sub|82         ; |multer|74283:inst2|f74283:sub|82         ; out0             ;
+; |multer|74283:inst2|f74283:sub|83         ; |multer|74283:inst2|f74283:sub|83         ; out0             ;
+; |multer|74283:inst2|f74283:sub|80         ; |multer|74283:inst2|f74283:sub|80         ; out0             ;
+; |multer|74283:inst2|f74283:sub|81         ; |multer|74283:inst2|f74283:sub|81         ; out0             ;
+; |multer|74283:inst2|f74283:sub|78         ; |multer|74283:inst2|f74283:sub|78         ; out0             ;
+; |multer|74283:inst2|f74283:sub|79         ; |multer|74283:inst2|f74283:sub|79         ; out0             ;
+; |multer|74161:inst|f74161:sub|99          ; |multer|74161:inst|f74161:sub|99          ; regout           ;
+; |multer|74161:inst|f74161:sub|102         ; |multer|74161:inst|f74161:sub|102         ; out0             ;
+; |multer|74161:inst|f74161:sub|101         ; |multer|74161:inst|f74161:sub|101         ; out0             ;
+; |multer|74161:inst|f74161:sub|87          ; |multer|74161:inst|f74161:sub|87          ; regout           ;
+; |multer|74161:inst|f74161:sub|92          ; |multer|74161:inst|f74161:sub|92          ; out0             ;
+; |multer|74161:inst|f74161:sub|91          ; |multer|74161:inst|f74161:sub|91          ; out0             ;
+; |multer|74161:inst|f74161:sub|75          ; |multer|74161:inst|f74161:sub|75          ; out0             ;
+; |multer|74161:inst|f74161:sub|76          ; |multer|74161:inst|f74161:sub|76          ; out0             ;
+; |multer|control1:inst21|inst2             ; |multer|control1:inst21|inst2             ; out0             ;
+; |multer|control1:inst21|inst              ; |multer|control1:inst21|inst              ; regout           ;
+; |multer|control1:inst21|inst6             ; |multer|control1:inst21|inst6             ; out0             ;
+; |multer|control1:inst21|inst4             ; |multer|control1:inst21|inst4             ; out0             ;
+; |multer|control1:inst21|inst8             ; |multer|control1:inst21|inst8             ; out0             ;
+; |multer|74191:inst15|f74191:sub|107       ; |multer|74191:inst15|f74191:sub|107       ; out0             ;
+; |multer|74191:inst15|f74191:sub|95        ; |multer|74191:inst15|f74191:sub|95        ; out0             ;
+; |multer|74191:inst15|f74191:sub|17        ; |multer|74191:inst15|f74191:sub|17        ; regout           ;
+; |multer|74191:inst15|f74191:sub|83        ; |multer|74191:inst15|f74191:sub|83        ; out0             ;
+; |multer|74191:inst15|f74191:sub|16        ; |multer|74191:inst15|f74191:sub|16        ; regout           ;
+; |multer|74191:inst15|f74191:sub|56        ; |multer|74191:inst15|f74191:sub|56        ; out0             ;
+; |multer|74191:inst15|f74191:sub|58        ; |multer|74191:inst15|f74191:sub|58        ; out0             ;
+; |multer|74191:inst15|f74191:sub|116       ; |multer|74191:inst15|f74191:sub|116       ; out0             ;
+; |multer|74191:inst15|f74191:sub|63        ; |multer|74191:inst15|f74191:sub|63        ; out0             ;
+; |multer|74191:inst15|f74191:sub|73        ; |multer|74191:inst15|f74191:sub|73        ; out0             ;
+; |multer|74191:inst15|f74191:sub|86        ; |multer|74191:inst15|f74191:sub|86        ; out0             ;
+; |multer|74191:inst15|f74191:sub|100       ; |multer|74191:inst15|f74191:sub|100       ; out0             ;
+; |multer|74191:inst15|f74191:sub|inhb:55|5 ; |multer|74191:inst15|f74191:sub|inhb:55|5 ; out0             ;
+; |multer|74283:inst2|f74283:sub|100~0      ; |multer|74283:inst2|f74283:sub|100~0      ; out0             ;
+; |multer|74283:inst2|f74283:sub|97~0       ; |multer|74283:inst2|f74283:sub|97~0       ; out0             ;
++-------------------------------------------+-------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                       ;
++--------------------------------------+--------------------------------------+------------------+
+; Node Name                            ; Output Port Name                     ; Output Port Type ;
++--------------------------------------+--------------------------------------+------------------+
+; |multer|Q[7]                         ; |multer|Q[7]                         ; pin_out          ;
+; |multer|A[3]                         ; |multer|A[3]                         ; out              ;
+; |multer|A[2]                         ; |multer|A[2]                         ; out              ;
+; |multer|A[1]                         ; |multer|A[1]                         ; out              ;
+; |multer|A[0]                         ; |multer|A[0]                         ; out              ;
+; |multer|inst7                        ; |multer|inst7                        ; out0             ;
+; |multer|B[3]                         ; |multer|B[3]                         ; out              ;
+; |multer|B[2]                         ; |multer|B[2]                         ; out              ;
+; |multer|B[1]                         ; |multer|B[1]                         ; out              ;
+; |multer|B[0]                         ; |multer|B[0]                         ; out              ;
+; |multer|74194:inst14|50              ; |multer|74194:inst14|50              ; out0             ;
+; |multer|74194:inst14|54              ; |multer|74194:inst14|54              ; out0             ;
+; |multer|74194:inst14|61              ; |multer|74194:inst14|61              ; out0             ;
+; |multer|74194:inst14|58              ; |multer|74194:inst14|58              ; out0             ;
+; |multer|74194:inst14|59              ; |multer|74194:inst14|59              ; out0             ;
+; |multer|74194:inst14|55              ; |multer|74194:inst14|55              ; out0             ;
+; |multer|74161:inst1|f74161:sub|87    ; |multer|74161:inst1|f74161:sub|87    ; regout           ;
+; |multer|74161:inst1|f74161:sub|92    ; |multer|74161:inst1|f74161:sub|92    ; out0             ;
+; |multer|74161:inst1|f74161:sub|91    ; |multer|74161:inst1|f74161:sub|91    ; out0             ;
+; |multer|74161:inst1|f74161:sub|86    ; |multer|74161:inst1|f74161:sub|86    ; out0             ;
+; |multer|74283:inst2|f74283:sub|107   ; |multer|74283:inst2|f74283:sub|107   ; out0             ;
+; |multer|74283:inst2|f74283:sub|101   ; |multer|74283:inst2|f74283:sub|101   ; out0             ;
+; |multer|74283:inst2|f74283:sub|98    ; |multer|74283:inst2|f74283:sub|98    ; out0             ;
+; |multer|74283:inst2|f74283:sub|95    ; |multer|74283:inst2|f74283:sub|95    ; out0             ;
+; |multer|74283:inst2|f74283:sub|97    ; |multer|74283:inst2|f74283:sub|97    ; out0             ;
+; |multer|74283:inst2|f74283:sub|103   ; |multer|74283:inst2|f74283:sub|103   ; out0             ;
+; |multer|74283:inst2|f74283:sub|102   ; |multer|74283:inst2|f74283:sub|102   ; out0             ;
+; |multer|74161:inst|f74161:sub|110    ; |multer|74161:inst|f74161:sub|110    ; regout           ;
+; |multer|74161:inst|f74161:sub|109    ; |multer|74161:inst|f74161:sub|109    ; out0             ;
+; |multer|74161:inst|f74161:sub|113    ; |multer|74161:inst|f74161:sub|113    ; out0             ;
+; |multer|74161:inst|f74161:sub|108    ; |multer|74161:inst|f74161:sub|108    ; out0             ;
+; |multer|74283:inst2|f74283:sub|103~0 ; |multer|74283:inst2|f74283:sub|103~0 ; out0             ;
++--------------------------------------+--------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                       ;
++--------------------------------------+--------------------------------------+------------------+
+; Node Name                            ; Output Port Name                     ; Output Port Type ;
++--------------------------------------+--------------------------------------+------------------+
+; |multer|Q[7]                         ; |multer|Q[7]                         ; pin_out          ;
+; |multer|Q[4]                         ; |multer|Q[4]                         ; pin_out          ;
+; |multer|A[3]                         ; |multer|A[3]                         ; out              ;
+; |multer|A[2]                         ; |multer|A[2]                         ; out              ;
+; |multer|A[1]                         ; |multer|A[1]                         ; out              ;
+; |multer|A[0]                         ; |multer|A[0]                         ; out              ;
+; |multer|inst7                        ; |multer|inst7                        ; out0             ;
+; |multer|B[3]                         ; |multer|B[3]                         ; out              ;
+; |multer|B[2]                         ; |multer|B[2]                         ; out              ;
+; |multer|B[1]                         ; |multer|B[1]                         ; out              ;
+; |multer|B[0]                         ; |multer|B[0]                         ; out              ;
+; |multer|74194:inst14|50              ; |multer|74194:inst14|50              ; out0             ;
+; |multer|74194:inst14|57              ; |multer|74194:inst14|57              ; out0             ;
+; |multer|74194:inst14|54              ; |multer|74194:inst14|54              ; out0             ;
+; |multer|74194:inst14|61              ; |multer|74194:inst14|61              ; out0             ;
+; |multer|74194:inst14|58              ; |multer|74194:inst14|58              ; out0             ;
+; |multer|74194:inst14|59              ; |multer|74194:inst14|59              ; out0             ;
+; |multer|74194:inst14|55              ; |multer|74194:inst14|55              ; out0             ;
+; |multer|74161:inst1|f74161:sub|110   ; |multer|74161:inst1|f74161:sub|110   ; regout           ;
+; |multer|74161:inst1|f74161:sub|109   ; |multer|74161:inst1|f74161:sub|109   ; out0             ;
+; |multer|74161:inst1|f74161:sub|108   ; |multer|74161:inst1|f74161:sub|108   ; out0             ;
+; |multer|74161:inst1|f74161:sub|99    ; |multer|74161:inst1|f74161:sub|99    ; regout           ;
+; |multer|74161:inst1|f74161:sub|102   ; |multer|74161:inst1|f74161:sub|102   ; out0             ;
+; |multer|74161:inst1|f74161:sub|98    ; |multer|74161:inst1|f74161:sub|98    ; out0             ;
+; |multer|74161:inst1|f74161:sub|87    ; |multer|74161:inst1|f74161:sub|87    ; regout           ;
+; |multer|74161:inst1|f74161:sub|92    ; |multer|74161:inst1|f74161:sub|92    ; out0             ;
+; |multer|74161:inst1|f74161:sub|91    ; |multer|74161:inst1|f74161:sub|91    ; out0             ;
+; |multer|74161:inst1|f74161:sub|86    ; |multer|74161:inst1|f74161:sub|86    ; out0             ;
+; |multer|74161:inst1|f74161:sub|9     ; |multer|74161:inst1|f74161:sub|9     ; regout           ;
+; |multer|74161:inst1|f74161:sub|75    ; |multer|74161:inst1|f74161:sub|75    ; out0             ;
+; |multer|74161:inst1|f74161:sub|77    ; |multer|74161:inst1|f74161:sub|77    ; out0             ;
+; |multer|74283:inst2|f74283:sub|107   ; |multer|74283:inst2|f74283:sub|107   ; out0             ;
+; |multer|74283:inst2|f74283:sub|101   ; |multer|74283:inst2|f74283:sub|101   ; out0             ;
+; |multer|74283:inst2|f74283:sub|98    ; |multer|74283:inst2|f74283:sub|98    ; out0             ;
+; |multer|74283:inst2|f74283:sub|95    ; |multer|74283:inst2|f74283:sub|95    ; out0             ;
+; |multer|74283:inst2|f74283:sub|97    ; |multer|74283:inst2|f74283:sub|97    ; out0             ;
+; |multer|74283:inst2|f74283:sub|103   ; |multer|74283:inst2|f74283:sub|103   ; out0             ;
+; |multer|74283:inst2|f74283:sub|102   ; |multer|74283:inst2|f74283:sub|102   ; out0             ;
+; |multer|74161:inst|f74161:sub|110    ; |multer|74161:inst|f74161:sub|110    ; regout           ;
+; |multer|74161:inst|f74161:sub|109    ; |multer|74161:inst|f74161:sub|109    ; out0             ;
+; |multer|74161:inst|f74161:sub|113    ; |multer|74161:inst|f74161:sub|113    ; out0             ;
+; |multer|74161:inst|f74161:sub|108    ; |multer|74161:inst|f74161:sub|108    ; out0             ;
+; |multer|74161:inst|f74161:sub|98     ; |multer|74161:inst|f74161:sub|98     ; out0             ;
+; |multer|74161:inst|f74161:sub|86     ; |multer|74161:inst|f74161:sub|86     ; out0             ;
+; |multer|74161:inst|f74161:sub|9      ; |multer|74161:inst|f74161:sub|9      ; regout           ;
+; |multer|74161:inst|f74161:sub|77     ; |multer|74161:inst|f74161:sub|77     ; out0             ;
+; |multer|74191:inst15|f74191:sub|19   ; |multer|74191:inst15|f74191:sub|19   ; regout           ;
+; |multer|74191:inst15|f74191:sub|18   ; |multer|74191:inst15|f74191:sub|18   ; regout           ;
+; |multer|74283:inst2|f74283:sub|103~0 ; |multer|74283:inst2|f74283:sub|103~0 ; out0             ;
+; |multer|74283:inst2|f74283:sub|93~0  ; |multer|74283:inst2|f74283:sub|93~0  ; out0             ;
++--------------------------------------+--------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Sun May 17 11:29:51 2020
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off mult -c mult
+Info: Using vector source file "C:/Users/zhuha/Desktop/逻辑电路实验/5-11/multer.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of multer.vwf called mult.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Warning: Found clock-sensitive change during active clock edge at time 60.0 ns on register "|multer|74194:inst14|38"
+Warning: Found clock-sensitive change during active clock edge at time 60.0 ns on register "|multer|74194:inst14|41"
+Warning: Found clock-sensitive change during active clock edge at time 60.0 ns on register "|multer|74161:inst1|f74161:sub|110"
+Warning: Found clock-sensitive change during active clock edge at time 60.0 ns on register "|multer|74161:inst1|f74161:sub|99"
+Warning: Found clock-sensitive change during active clock edge at time 60.0 ns on register "|multer|74161:inst1|f74161:sub|9"
+Warning: Found clock-sensitive change during active clock edge at time 60.0 ns on register "|multer|control1:inst21|inst"
+Warning: Found clock-sensitive change during active clock edge at time 60.0 ns on register "|multer|74191:inst15|f74191:sub|17"
+Warning: Found clock-sensitive change during active clock edge at time 60.0 ns on register "|multer|74191:inst15|f74191:sub|16"
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      60.94 %
+Info: Number of transitions in simulation is 369
+Info: Vector file multer.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 180 megabytes
+    Info: Processing ended: Sun May 17 11:29:51 2020
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+

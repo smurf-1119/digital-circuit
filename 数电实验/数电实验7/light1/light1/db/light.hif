@@ -1,0 +1,226 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+936
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+mod6
+# storage
+db|light.(4).cnf
+db|light.(4).cnf
+# case_insensitive
+# source_file
+mod6.bdf
+5d529cfe4e7775f85cbf258f44458392
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+mod10
+# storage
+db|light.(8).cnf
+db|light.(8).cnf
+# case_insensitive
+# source_file
+mod10.bdf
+e719861fea951ca62e1c1d70b85b5380
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+mod60
+# storage
+db|light.(3).cnf
+db|light.(3).cnf
+# case_insensitive
+# source_file
+mod60.bdf
+22f2978edc25f54f60d6e83a62652b9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+CONTROL
+# storage
+db|light.(1).cnf
+db|light.(1).cnf
+# case_insensitive
+# source_file
+control.bdf
+bbeb789ccc11ee6884dfb628291aa4a0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CONTROL:inst
+}
+# macro_sequence
+
+# end
+# entity
+xuanze
+# storage
+db|light.(14).cnf
+db|light.(14).cnf
+# case_insensitive
+# source_file
+xuanze.bdf
+13e1184bb45deac0fba2b99b9a7539cd
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+xuanze:inst12
+xuanze:inst13
+}
+# macro_sequence
+
+# end
+# entity
+Block4
+# storage
+db|light.(11).cnf
+db|light.(11).cnf
+# case_insensitive
+# source_file
+block4.bdf
+e3c97d2d23512ad4a8cbe2123f45d8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block4:inst14
+Block4:inst15
+}
+# macro_sequence
+
+# end
+# entity
+7474
+# storage
+db|light.(2).cnf
+db|light.(2).cnf
+# case_insensitive
+# source_file
+d:|softwares|programfiles|quartus222|quartus|libraries|others|maxplus2|7474.bdf
+a982f9dfb307a85efbd6af71d3adf
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CONTROL:inst|7474:inst
+}
+# macro_sequence
+
+# end
+# entity
+74168
+# storage
+db|light.(5).cnf
+db|light.(5).cnf
+# case_insensitive
+# source_file
+d:|softwares|programfiles|quartus222|quartus|libraries|others|maxplus2|74168.bdf
+ddc82fd96e1d653023c0e3ed9f9aee61
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block4:inst14|74168:inst
+Block4:inst14|74168:inst1
+Block4:inst15|74168:inst
+Block4:inst15|74168:inst1
+}
+# macro_sequence
+
+# end
+# entity
+74153
+# storage
+db|light.(6).cnf
+db|light.(6).cnf
+# case_insensitive
+# source_file
+d:|softwares|programfiles|quartus222|quartus|libraries|others|maxplus2|74153.bdf
+282da062e85dbc28b5a89e8c71ef2a39
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+xuanze:inst12|74153:inst3
+xuanze:inst12|74153:inst4
+xuanze:inst12|74153:inst
+xuanze:inst12|74153:inst2
+xuanze:inst13|74153:inst3
+xuanze:inst13|74153:inst4
+xuanze:inst13|74153:inst
+xuanze:inst13|74153:inst2
+}
+# macro_sequence
+
+# end
+# entity
+light
+# storage
+db|light.(0).cnf
+db|light.(0).cnf
+# case_insensitive
+# source_file
+light.bdf
+737e3b9d1be4268c3be560d3c0763bce
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Traffic_Light">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Traffic_Light_2|lpm_mux0:inst11|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_umc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Traffic_Light_2|lpm_mux0:inst12|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_umc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
